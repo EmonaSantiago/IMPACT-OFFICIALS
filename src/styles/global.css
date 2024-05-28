@@ -29,4 +29,9 @@ p {
     font-weight: thin;
 }
 
+a {
+    text-decoration: none;
+    color: var(--IMPACT-yellow);
+}
+
 

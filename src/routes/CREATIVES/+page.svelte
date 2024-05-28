@@ -9,7 +9,7 @@
 <body>
     {@html pageTitle.creatives}
     <div class="section">
-      <h2>Fashion</h2>
+      <h2>FASHION</h2>
       <div class="carousel">
         {#each fashions as fashion}
   <div class="item">
@@ -24,20 +24,14 @@
       </div>
     </div>
   
-    <div class="section">
-      <h2>Photographers</h2>
-      <div class="carousel">
-        <div class="item">
-          <img src="photographer1.jpg" alt="Photographer 1">
-          <div class="info">
-            <h3>Photographer 1</h3>
-            <p>An introduction to Photographer 1</p>
-            <a href="photographer1.html" class="btn">View More</a>
-          </div>
+    <div class="item">
+        <img src="photographer1.jpg" alt="Photographer 1">
+        <div class="info">
+          <h3>Photographer 1</h3>
+          <p>An introduction to Photographer 1</p>
+          <a href="photographer1.html" class="btn">View More</a>
         </div>
-        <!-- More items here -->
       </div>
-    </div>
 
     <div class="section">
         <h2>Photographers</h2>
@@ -82,6 +76,14 @@
         </div>
       </div>
   
+      <div class="item">
+        <img src="photographer1.jpg" alt="Photographer 1">
+        <div class="info">
+          <h3>Photographer 1</h3>
+          <p>An introduction to Photographer 1</p>
+          <a href="photographer1.html" class="btn">View More</a>
+        </div>
+      </div>
     <!-- More sections here -->
   
   </body>
@@ -114,6 +116,10 @@ body {
   height: auto;
 }
 
+img {
+    filter: brightness(50%);
+}
+
 .info {
   padding: 10px;
 }
@@ -131,8 +137,24 @@ body {
   border: none;
   border-radius: 3px;
 }
-
-.btn:hover {
-  background-color: #0056b3;
+.item {
+  position: relative;
 }
+
+.item img {
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover;
+    width: 300px; 
+    height: 300px;  
+}
+
+.item h3{
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
 </style>
