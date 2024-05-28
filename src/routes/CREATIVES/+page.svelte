@@ -16,7 +16,7 @@
     <img src="{fashion.image.url}" alt="persoon">
     <div class="info">
       <h3>{@html fashion.brand}</h3>
-      <a href="{fashion.url}" class="btn">View More</a>
+      <!-- <a href="{fashion.url}" class="btn">View More</a> -->
     </div>
   </div>
 {/each}
@@ -87,22 +87,13 @@
   </body>
 
 <style>
-    /* h1 {
-        color: white;
-    } */
-    body {
+body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
 }
-
 .section {
   margin-bottom: 30px;
-}
-
-h2 {
-  margin-bottom: 10px;
-  color: white;
 }
 
 .carousel {
@@ -125,20 +116,18 @@ h2 {
 
 .info {
   padding: 10px;
-  background-color: #f2f2f2;
 }
 
 .info h3 {
   margin-top: 0;
+ color: white;
 }
-
 .btn {
   display: block;
   margin-top: 10px;
   padding: 5px 10px;
   text-decoration: none;
-  color: #fff;
-  background-color: #007bff;
+  color: var(--IMPACT-yellow);
   border: none;
   border-radius: 3px;
 }
