@@ -1,0 +1,31 @@
+/* global */
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --IMPACT-yellow: #F8F053;
+    --IMPACT-black: black;
+    --IMPACT-white: white;
+}
+
+/* body section */
+body { 
+    background-color: var(--IMPACT-black);
+    color: #F8F053;
+    /* margin: 1em; */
+}
+
+h1 {
+    padding-top: 80px;
+    color: var(--IMPACT-yellow);
+}
+
+p {
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
