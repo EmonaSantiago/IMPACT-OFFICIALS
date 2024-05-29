@@ -17,7 +17,7 @@
       <a href="/" class="button">GET TICKETS</a>
       </section>
       <section class="content">
-          <img id="save-the-date" src="src/static/save-the-date.png" alt="Save the date post">
+          <img id="save-the-date" src="" alt="Save the date post">
       </section>
 
   </section>
@@ -50,7 +50,7 @@
       </form>
   </section>
       <section class="content">
-          <img id="team" src="src/static/save-the-date.png" alt="Save the date post">
+          <img id="team" src="" alt="Save the date post">
   </section>
   </section>
 </body>
@@ -100,7 +100,7 @@
   }
 
   #hero-section {
-      background-image: url("/src/static/aftermovie.png");
+      /* background-image: url("/src/static/aftermovie.png"); */
       height: 100vh; 
       background-position: center;
       background-repeat: no-repeat;

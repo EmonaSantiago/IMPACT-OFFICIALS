@@ -2,9 +2,16 @@
      export let data;
   const pageTitle = data.creativepage;
   const fashions = data?.allFashions || [];
+
+  const beautys = data?.allBeautyLifestyles || [];
   
 </script>
+{@html pageTitle.creatives}
 
+{#each beautys as beauty}
+<img src="{beauty.image.url}" alt="persoon">
+{@html beauty.brand}
+{/each}
 
 <body>
     {@html pageTitle.creatives}
@@ -27,14 +34,14 @@
     <div class="item">
         <img src="photographer1.jpg" alt="Photographer 1">
         <div class="info">
-          <h3>Photographer 1</h3>
+            <h2>BEAUTY & LIFESTYLE</h2>
           <p>An introduction to Photographer 1</p>
           <a href="photographer1.html" class="btn">View More</a>
         </div>
       </div>
 
     <div class="section">
-        <h2>Photographers</h2>
+        <h2>VISUALS</h2>
         <div class="carousel">
           <div class="item">
             <img src="photographer1.jpg" alt="Photographer 1">
@@ -48,7 +55,7 @@
         </div>
       </div>
       <div class="section">
-        <h2>Photographers</h2>
+        <h2>ARTIESTEN & DANSERS</h2>
         <div class="carousel">
           <div class="item">
             <img src="photographer1.jpg" alt="Photographer 1">
@@ -62,7 +69,7 @@
         </div>
       </div>
       <div class="section">
-        <h2>Photographers</h2>
+        <h2>DJ'S</h2>
         <div class="carousel">
           <div class="item">
             <img src="photographer1.jpg" alt="Photographer 1">
@@ -76,16 +83,7 @@
         </div>
       </div>
   
-      <div class="item">
-        <img src="photographer1.jpg" alt="Photographer 1">
-        <div class="info">
-          <h3>Photographer 1</h3>
-          <p>An introduction to Photographer 1</p>
-          <a href="photographer1.html" class="btn">View More</a>
-        </div>
-      </div>
-    <!-- More sections here -->
-  
+
   </body>
 
 <style>

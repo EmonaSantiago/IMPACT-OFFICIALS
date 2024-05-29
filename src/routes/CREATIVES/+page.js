@@ -4,16 +4,22 @@ export async function load({}) {
 	const responseData = await performGraphqlQuery({
 		query: `
       {
-        creativepage {
-          creatives
-        }
         allFashions {
           brand
           image {
             url
           }
         }
-    }
+        allBeautyLifestyles {
+          brand
+          image {
+            url
+          }
+        }
+        creativepage {
+          creatives
+        }
+      }
     `
 	});
 	return responseData.data;
