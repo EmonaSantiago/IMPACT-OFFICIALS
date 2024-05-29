@@ -16,6 +16,14 @@ export async function load({}) {
             url
           }
         }
+
+        allDjs {
+          brand
+          image {
+            url
+          }
+        }
+        
         creativepage {
           creatives
         }

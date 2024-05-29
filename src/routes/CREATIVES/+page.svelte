@@ -4,8 +4,14 @@
   const fashions = data?.allFashions || [];
 
   const beautys = data?.allBeautyLifestyles || [];
-  
+  const djs = data?.allDjs || [];
 </script>
+
+
+
+
+
+
 
 <body>
     <h1>{@html pageTitle.creatives}</h1>
@@ -67,17 +73,19 @@
       <div class="section">
         <h2>DJ'S</h2>
         <div class="carousel">
+          {#each djs as dj}
           <div class="item">
+            <img src="{dj.image.url}" alt="persoon">
             <img src="photographer1.jpg" alt="Photographer 1">
             <div class="info">
-              <h3>Photographer 1</h3>
-              <p>An introduction to Photographer 1</p>
-              <a href="photographer1.html" class="btn">View More</a>
+              <h3>{@html dj.brand}</h3>
             </div>
           </div>
+          {/each}
           <!-- More items here -->
         </div>
       </div>
+
   
 
   </body>
