@@ -6,15 +6,9 @@
   const beautys = data?.allBeautyLifestyles || [];
   
 </script>
-{@html pageTitle.creatives}
-
-{#each beautys as beauty}
-<img src="{beauty.image.url}" alt="persoon">
-{@html beauty.brand}
-{/each}
 
 <body>
-    {@html pageTitle.creatives}
+    <h1>{@html pageTitle.creatives}</h1>
     <div class="section">
       <h2>FASHION</h2>
       <div class="carousel">
@@ -30,30 +24,32 @@
         <!-- More items here -->
       </div>
     </div>
-  
-    <div class="item">
+
+    <div class="section">
+      <h2>BEAUTY & LIFESTYLE</h2>
+        <div class="carousel">
+          {#each beautys as beauty}
+          <div class="item">
+            <img src="{beauty.image.url}" alt="persoon">
+            <img src="photographer1.jpg" alt="Photographer 1">
+            <div class="info">
+              <h3>{@html beauty.brand}</h3>
+            </div>
+          </div>
+          {/each}
+          <!-- More items here -->
+        </div>
+      </div>
+
+      <div class="item">
         <img src="photographer1.jpg" alt="Photographer 1">
         <div class="info">
-            <h2>BEAUTY & LIFESTYLE</h2>
+            <h2>VISUALS</h2>
           <p>An introduction to Photographer 1</p>
           <a href="photographer1.html" class="btn">View More</a>
         </div>
       </div>
 
-    <div class="section">
-        <h2>VISUALS</h2>
-        <div class="carousel">
-          <div class="item">
-            <img src="photographer1.jpg" alt="Photographer 1">
-            <div class="info">
-              <h3>Photographer 1</h3>
-              <p>An introduction to Photographer 1</p>
-              <a href="photographer1.html" class="btn">View More</a>
-            </div>
-          </div>
-          <!-- More items here -->
-        </div>
-      </div>
       <div class="section">
         <h2>ARTIESTEN & DANSERS</h2>
         <div class="carousel">
