@@ -8,7 +8,9 @@
             <p class="date">JUNE 3, 2022</p>
             <div class="section-title">IMPACT 1ST EDITION</div>
             <div class="btn-container">
-                <button class="btn">FULL VIDEO</button>
+                <a href="https://youtu.be/MUrkbtPAPTg?si=ndi5kfmqBumbXbC9" class="btn-link">
+                    <button class="btn">FULL VIDEO</button>
+                </a>
                 <button class="btn">PHOTOS</button>
             </div>
             <img class="image" src="src/static/aftermovie1.png" alt="AFTER MOVIE">
@@ -19,7 +21,9 @@
             <p class="date">APRIL 4TH, 2023</p>
             <div class="section-title">SHOOTDAY 2</div>
             <div class="btn-container">
-                <button class="btn">FULL VIDEO</button>
+                <a href="https://youtu.be/Ia7KJ02kIZY?si=tMIUFseny6oB1ZiC" class="btn-link">
+                    <button class="btn">FULL VIDEO</button>
+                </a>
                 <button class="btn">PHOTOS</button>
             </div>
             <img class="image" src="src/static/shootday2.png" alt="AFTER MOVIE">
@@ -29,7 +33,9 @@
             <p class="date">MAY 27TH, 2023</p>
             <div class="section-title">IMPACT 2ND EDITION</div>
             <div class="btn-container">
-                <button class="btn">FULL VIDEO</button>
+                <a href="https://youtu.be/dsIPm3Z9mxA?si=IBrUlklDAz8AtnnF" class="btn-link">
+                    <button class="btn">FULL VIDEO</button>
+                </a>
                 <button class="btn">PHOTOS</button>
             </div>
             <img class="image" src="src/static/aftermovie.png" alt="AFTER MOVIE">
