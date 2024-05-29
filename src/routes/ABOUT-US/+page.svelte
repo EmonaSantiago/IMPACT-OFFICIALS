@@ -47,31 +47,53 @@
     <h2>TEAM IMPACT</h2>
     <div class="team-members">
         <div class="member">
-          <img src="team_member1.jpg" alt="Team Member 1">
+          <img src="/src/static/IMPACT CHEZKA.jpg" alt="Team Member 1">
           <h3>Team Lid 1</h3>
           <a href="#">LinkedIn</a>
           <a href="#">Twitter</a>
         </div>
         <div class="member">
-          <img src="team_member1.jpg" alt="Team Member 1">
+          <img src="/src/static/IMPACT JOAN.jpg" alt="Team Member 1">
           <h3>Team Lid 1</h3>
           <a href="#">LinkedIn</a>
           <a href="#">Twitter</a>
         </div>
         <div class="member">
-          <img src="team_member1.jpg" alt="Team Member 1">
+          <img src="/src/static/IMPACT SENNA.jpg" alt="Team Member 1">
           <h3>Team Lid 1</h3>
           <a href="#">LinkedIn</a>
           <a href="#">Twitter</a>
         </div>
         <div class="member">
-          <img src="team_member1.jpg" alt="Team Member 1">
+          <img src="/src/static/IMPACT LAWRENCE.jpg" alt="Team Member 1">
+          <h3>Team Lid 1</h3>
+          <a href="#">LinkedIn</a>
+          <a href="#">Twitter</a>
+        </div>
+        <div class="member">
+          <img src="/src/static/IMPACT JOY .jpg" alt="Team Member 1">
+          <h3>Team Lid 1</h3>
+          <a href="#">LinkedIn</a>
+          <a href="#">Twitter</a>
+        </div>
+        <div class="member">
+          <img src="/src/static/IMPACT AARON.png" alt="Team Member 1">
           <h3>Team Lid 1</h3>
           <a href="#">LinkedIn</a>
           <a href="#">Twitter</a>
         </div>
         <!-- Voeg hier nog 6 van zulke 'member' divs toe -->
       </div>
+        <div class="member">
+          <img src="/src/static/IMPACT EMONA.jpg" alt="Team Member 1">
+          <h3>Team Lid 1</h3>
+          <a href="#">LinkedIn</a>
+          <a href="#">Twitter</a>
+        </div>
+
+      
+        <!-- Voeg hier nog 6 van zulke 'member' divs toe -->
+ 
     </section>
       
 </body>
@@ -147,7 +169,7 @@ section {
     }
 
     section {
-        width: 45%;
+        width: 100%;
     }
 
     section:nth-child(even) {
@@ -170,21 +192,21 @@ section {
 }
 
 .member {
-  flex: 0 1 calc(50% - 10px); /* 2 naast elkaar op mobiel */
+  flex:0 1 calc(50% - 10px); /* 2 naast elkaar op mobiel */
   margin-bottom: 20px;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .member {
-    flex: 0 1 calc(33.33% - 10px); /* 3 naast elkaar op tablet */
+    flex: 0 1 calc(33.33% - 10px); 
   }
 }
 
 @media (min-width: 1024px) {
   .member {
-    flex: 0 1 calc(25% - 10px); /* 4 naast elkaar op desktop */
+    flex: 0 1 calc(25% - 10px); 
   }
-}
+} */
 
 .member img {
   width: 100%;
