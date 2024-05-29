@@ -15,7 +15,8 @@
       <a href="/" class="button">GET TICKETS</a>
       </section>
       <section class="content">
-          <img id="home-image" src="{homedata.image.url}" alt="persoon">
+          <!-- <img id="home-image" src="{homedata.image.url}" alt="persoon"> -->
+          <img class="image" src="src/static/poster.png" alt="AFTER MOVIE">
       </section>
 
   </section>
@@ -48,7 +49,8 @@
       </form>
   </section>
       <section class="content">
-        <img id="form-image" src="{homedata.image.url}" alt="persoon">
+        <!-- <img id="form-image" src="{homedata.image.url}" alt="persoon"> -->
+        <img class="image" src="src/static/team.jpg" alt="AFTER MOVIE">
   </section>
   </section>
 </body>
@@ -110,7 +112,7 @@
   }
   
   #upcoming {
-      height: auto;
+      height: 90vh;
       display: flex;
       flex-wrap: wrap;
       /* border-bottom: solid 2px white; */
@@ -193,7 +195,7 @@
   }
 
   #upcoming {
-      height: 50vh;
+      height: auto;
     border-bottom: solid 2px white;
     }
     
