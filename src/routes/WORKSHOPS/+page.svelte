@@ -20,7 +20,8 @@
 
 <style>
     h1 {
-        margin: 1em;
+      padding-top: 80px;
+      padding-left: 20px;
     }
 
     h2 {

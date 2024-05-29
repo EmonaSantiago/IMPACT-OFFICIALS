@@ -1,23 +1,27 @@
 <body>
 <h1>TIMELINE</h1>
+
     <div class="timeline">
+
         <div class="section">
             <div class="dot"></div>
-            <div class="section-title">Sectie 1</div>
+            <p class="date">JUNE 3, 2022</p>
+            <div class="section-title">1ST EDITION</div>
             <div class="btn-container">
-                <button class="btn">Knop 1</button>
-                <button class="btn">Knop 2</button>
+                <button class="btn">FULL VIDEO</button>
+                <button class="btn">PHOTOS</button>
             </div>
-            <img class="image" src="src/static/team.png" alt="Afbeelding 1">
+            <img class="image" src="src/static/aftermovie.png" alt="AFTER MOVIE">
         </div>
+
         <div class="section">
             <div class="dot"></div>
-            <div class="section-title">Sectie 2</div>
+            <div class="section-title">SHOOT DAY</div>
             <div class="btn-container">
                 <button class="btn">Knop 1</button>
                 <button class="btn">Knop 2</button>
             </div>
-            <img class="image" src="src/static/team.png" alt="Afbeelding 2">
+            <img class="image" src="src/static/aftermovie.png" alt="AFTER MOVIE">
         </div>
         <div class="section">
             <div class="dot"></div>
@@ -26,7 +30,7 @@
                 <button class="btn">Knop 1</button>
                 <button class="btn">Knop 2</button>
             </div>
-            <img class="image" src="src/static/team.png" alt="Afbeelding 2">
+            <img class="image" src="src/static/aftermovie.png" alt="AFTER MOVIE">
         </div>
         <div class="section">
             <div class="dot"></div>
@@ -35,7 +39,7 @@
                 <button class="btn">Knop 1</button>
                 <button class="btn">Knop 2</button>
             </div>
-            <img class="image" src="src/static/team.png" alt="Afbeelding 2">
+            <img class="image" src="src/static/aftermovie.png" alt="AFTER MOVIE">
         </div>
         <div class="section">
             <div class="dot"></div>
@@ -44,18 +48,17 @@
                 <button class="btn">Knop 1</button>
                 <button class="btn">Knop 2</button>
             </div>
-            <img class="image" src="src/static/team.png" alt="Afbeelding 2">
+            <img class="image" src="src/static/aftermovie.png" alt="AFTER MOVIE">
         </div>
         <!-- Voeg meer secties toe zoals nodig -->
     </div>
 </body>
 
 <style>
-    /* h1 {
-        color: var(--IMPACT-yellow);
-        margin-left: 1em;
-    } */
-
+.date {
+color: white;
+font-size: smaller;
+}
     body {
         padding: 20px;
     }
@@ -98,7 +101,6 @@
     .section-title {
         font-size: 20px;
         font-weight: bold;
-        margin-top: 20px;
         color: white;
     }
 
@@ -123,5 +125,7 @@
         max-width: 100%;
         height: auto;
         margin-top: 20px;
+        border: solid white 1px;
+        margin-bottom: 1em;
     }
 </style>
