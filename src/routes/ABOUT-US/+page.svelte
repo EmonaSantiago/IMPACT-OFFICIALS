@@ -3,44 +3,43 @@
         <h1>ABOUT US</h1>
         <nav>
             <ul>
-                <li><a href="#section1">Section 1</a></li>
-                <li><a href="#section2">Section 2</a></li>
-                <li><a href="#section3">Section 3</a></li>
+                <li><a href="#section">WHAT IS IMPACT?</a></li>
+                <li><a href="#section2">HOW DID IMPACT START?</a></li>
+                <li><a href="#section1">WHY IS IMPACT FOR YOU?</a></li>
                 <li><a href="#TEAM-IMPACT">TEAM IMPACT</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="section1">
-            <div class="content">
-                <h2>Section 1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
-            </div>
-        </section>
+
 
         <section id="section">
-          <div class="content">
-              <h2>Quote section</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
-          </div>
+          <div class="contentquote">
+              <h2 class="quote">IS A PLACE WHERE BUILDING CREATIVES CAN EXPRESS THEIR TALENTS AND CONNECT WITH OTHER CREATIVES.</h2>
+              </div>
       </section>
 
-       
-
-        <section id="section2">
-            <div class="content">
-                <h2>Section 2</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
-            </div>
-        </section>
+      <section id="section1">
+        <div class="content">
+            <h2>WHAT IS IMPACT?</h2>
+            <p>IMPACT is an event where dreams can become a reality. We are a platform where budding creatives can express their passions and talents while connecting with others. It brings creatives in fashion, music, and photography together. IMPACT is a community where we inspire and motivate each other to continue our creative process. The event consists of two important components: an expo and a runway.</p>
+        </div>
+    </section>
 
         <section id="section3">
             <div class="content">
-                <h2>Section 3</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
+                <h2>WHY IS IMPACT FOR YOU?</h2>
+                <p>During this event, creatives are given a chance to share their creativity. This creates an opportunity to connect with others, expanding your network. IMPACT is also intended for those who want to gain inspiration or need to develop themselves creatively. In addition to gaining inspiration, there are also interactive activities to participate in during this event.</p>
             </div>
         </section>
+
+        <section id="section2">
+          <div class="content">
+              <h2>HOW DID IMPACT START?</h2>
+              <p>IMPACT started as a dream and has grown into a vision where creativity is central. During the development process of the first edition of IMPACT, various connections were involved in putting this event together. With great success, we decided to organize a next edition.</p>
+          </div>
+      </section>
 
     </main>
 
@@ -82,18 +81,22 @@
   scroll-behavior: smooth;
 }
 
+p {
+  color: white;
+}
+
+.quote {
+  color: black;
+  background-color: var(--IMPACT-yellow);
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 
 }
-
-/* header {
-    background-color: #f2f2f2;
-    padding: 20px;
-    text-align: center;
-} */
 
 header {
     margin: 1em;
@@ -118,6 +121,8 @@ nav ul li a {
     text-decoration: none;
     color: white;
     font-size: 18px;
+    border-bottom: solid 1px yellow;
+    
 }
 
 main {
