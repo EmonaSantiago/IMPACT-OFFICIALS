@@ -3,21 +3,19 @@
   const homedata = data.homepage;
   
 </script>
-<a href="/CREATIVES">CREATIVES</a>
 
 
 <body>
   <section id="hero-section">
       <h1>IMPACT</h1>
   </section>
-
   <section id="upcoming">
       <section class="content">
         {@html homedata.homepageNews}
       <a href="/" class="button">GET TICKETS</a>
       </section>
       <section class="content">
-          <img id="save-the-date" src="" alt="Save the date post">
+          <img id="home-image" src="{homedata.image.url}" alt="persoon">
       </section>
 
   </section>
@@ -50,7 +48,7 @@
       </form>
   </section>
       <section class="content">
-          <img id="team" src="" alt="Save the date post">
+        <img id="form-image" src="{homedata.image.url}" alt="persoon">
   </section>
   </section>
 </body>
@@ -79,6 +77,10 @@
   transform: scale(1);
   opacity: 1;
 }
+}
+
+.content {
+    padding: 20px;
 }
 
   h2 {
@@ -112,12 +114,6 @@
       display: flex;
       flex-wrap: wrap;
       /* border-bottom: solid 2px white; */
-  }
-
-  .content {
-  flex: 1;
-  padding: 20px;
-  box-sizing: border-box;
   }
 
 
@@ -175,15 +171,34 @@
   background-color: var(--IMPACT-yellow);
   }
 
-  img#team {
+  img  {
       width: 100%;
       border-radius: 2em;
+ 
+  }
+
+  
+
+
+  #form-image {
+    width: 100%;
+    border-radius: 2em;
   }
 
   @media (min-width: 600px)  {
+    .content {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  }
 
   #upcoming {
-      height: 80vh;}
+      height: 50vh;
+    border-bottom: solid 2px white;
+    }
+    
+
+
   }
 
   #upcoming img{

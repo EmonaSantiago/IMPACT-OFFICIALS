@@ -5,14 +5,13 @@ export async function load({}) {
 		query: `
       {
         homepage {
-            homepageTitle
-            homepageNews
-            homepageForm
-            homepageVideo {
-              url
-            }
+          image {
+            url
+          }
+          homepageForm
+          homepageNews
+          homepageTitle
         }
-
         
     }
     `
