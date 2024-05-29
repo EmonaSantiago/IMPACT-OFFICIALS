@@ -48,45 +48,45 @@
     <div class="team-members">
         <div class="member">
           <img src="/src/static/IMPACT CHEZKA.jpg" alt="Team Member 1">
-          <h3>Team Lid 1</h3>
-          <a href="#">LinkedIn</a>
-          <a href="#">Twitter</a>
+          <h3>CHEZKA MALIGAYA</h3>
+          <p>Founder | Creative Director</p>
+          <a href="https://www.instagram.com/chezka_maligaya/">@chezka_maligaya</a>
         </div>
         <div class="member">
           <img src="/src/static/IMPACT JOAN.jpg" alt="Team Member 1">
-          <h3>Team Lid 1</h3>
-          <a href="#">LinkedIn</a>
-          <a href="#">Twitter</a>
+          <h3>JOAN MANZO</h3>
+          <p>Event Project Manager</p>
+          <a href="https://www.instagram.com/joan_cathleen/">@joan_cathleen</a>
         </div>
         <div class="member">
           <img src="/src/static/IMPACT SENNA.jpg" alt="Team Member 1">
-          <h3>Team Lid 1</h3>
-          <a href="#">LinkedIn</a>
-          <a href="#">Twitter</a>
+          <h3>SENNA WEZZINK</h3>
+          <p>Head of Socials</p>
+          <a href="https://www.instagram.com/senna.wezzink/">@senna.wezzink</a>
         </div>
         <div class="member">
           <img src="/src/static/IMPACT LAWRENCE.jpg" alt="Team Member 1">
-          <h3>Team Lid 1</h3>
-          <a href="#">LinkedIn</a>
-          <a href="#">Twitter</a>
+          <h3>LAWRENCE GOCO</h3>
+          <p>Event Coordinator</p>
+          <a href="https://www.instagram.com/luvvrence/">@luvvrence</a>
         </div>
         <div class="member">
           <img src="/src/static/IMPACT JOY .jpg" alt="Team Member 1">
-          <h3>Team Lid 1</h3>
-          <a href="#">LinkedIn</a>
-          <a href="#">Twitter</a>
+          <h3>JOY AMO</h3>
+          <p>Head of Design</p>
+          <a href="https://www.instagram.com/m.j.joy/">@m.j.joy</a>
         </div>
         <div class="member">
           <img src="/src/static/IMPACT AARON.png" alt="Team Member 1">
-          <h3>Team Lid 1</h3>
-          <a href="#">LinkedIn</a>
-          <a href="#">Twitter</a>
+          <h3>AARON WILLEMSEN</h3>
+          <p>Head of Finance + Photographer</p>
+          <a href="https://www.instagram.com/aaronlevi.w/">@aaronlevi.w</a>
         </div>
         <div class="member">
           <img src="/src/static/IMPACT EMONA.jpg" alt="Team Member 1">
-          <h3>Team Lid 1</h3>
-          <a href="#">LinkedIn</a>
-          <a href="#">Twitter</a>
+          <h3>EMONA SANTIAGO</h3>
+          <p>Front end Developer</p>
+          <a href="https://www.instagram.com/emona.santiago/">@emona.santiago</a>
         </div>
 
       </div>
@@ -222,7 +222,7 @@ section {
   display: block;
   margin-top: 5px;
   text-decoration: none;
-  color: #333;
+  color: white;
 }
 
 </style>
