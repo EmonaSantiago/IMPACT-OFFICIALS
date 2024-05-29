@@ -82,8 +82,6 @@
           <a href="#">LinkedIn</a>
           <a href="#">Twitter</a>
         </div>
-        <!-- Voeg hier nog 6 van zulke 'member' divs toe -->
-      </div>
         <div class="member">
           <img src="/src/static/IMPACT EMONA.jpg" alt="Team Member 1">
           <h3>Team Lid 1</h3>
@@ -91,9 +89,12 @@
           <a href="#">Twitter</a>
         </div>
 
+      </div>
       
-        <!-- Voeg hier nog 6 van zulke 'member' divs toe -->
  
+
+      
+       
     </section>
       
 </body>
