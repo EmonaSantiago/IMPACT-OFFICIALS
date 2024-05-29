@@ -46,6 +46,7 @@
     width: 100%;
     overflow-x: auto;
     white-space: nowrap;
+    height: 60vh;
   }
   .item {
     display: inline-block;
