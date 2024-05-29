@@ -38,7 +38,6 @@
           {#each beautys as beauty}
           <div class="item">
             <img src="{beauty.image.url}" alt="persoon">
-            <img src="photographer1.jpg" alt="Photographer 1">
             <div class="info">
               <h3>{@html beauty.brand}</h3>
             </div>
@@ -54,7 +53,6 @@
             {#each visuals as visual}
             <div class="item">
               <img src="{visual.image.url}" alt="persoon">
-              <img src="photographer1.jpg" alt="Photographer 1">
               <div class="info">
                 <h3>{@html visual.brand}</h3>
               </div>
@@ -84,7 +82,6 @@
           {#each djs as dj}
           <div class="item">
             <img src="{dj.image.url}" alt="persoon">
-            <img src="photographer1.jpg" alt="Photographer 1">
             <div class="info">
               <h3>{@html dj.brand}</h3>
             </div>
