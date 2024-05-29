@@ -127,6 +127,10 @@ img {
     filter: brightness(50%);
 }
 
+img:hover {
+    filter: none;
+}
+
 .info {
   padding: 10px;
 }
