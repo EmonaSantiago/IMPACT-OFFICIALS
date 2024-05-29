@@ -102,7 +102,7 @@
   }
 
   #hero-section {
-      /* background-image: url("/src/static/aftermovie.png"); */
+      background-image: url("/src/static/aftermovie.png");
       height: 100vh; 
       background-position: center;
       background-repeat: no-repeat;
