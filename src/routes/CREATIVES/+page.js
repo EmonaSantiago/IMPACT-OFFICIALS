@@ -24,6 +24,13 @@ export async function load({}) {
         }
       }
 
+      allArtiestDansers {
+        brand
+        image {
+          url
+        }
+      }
+
         allDjs {
           brand
           image {

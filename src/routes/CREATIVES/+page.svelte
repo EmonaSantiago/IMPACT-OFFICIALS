@@ -6,7 +6,12 @@
   const beautys = data?.allBeautyLifestyles || [];
   const djs = data?.allDjs || [];
   const visuals = data?.allVisuals || [];
+  const performances = data?.allArtiestDansers || [];
 </script>
+
+
+
+
 
 
 <body>
@@ -62,14 +67,14 @@
       <div class="section">
         <h2>ARTIESTEN & DANSERS</h2>
         <div class="carousel">
+          {#each performances as performance}
           <div class="item">
-            <img src="photographer1.jpg" alt="Photographer 1">
+            <img src="{performance.image.url}" alt="persoon">
             <div class="info">
-              <h3>Photographer 1</h3>
-              <p>An introduction to Photographer 1</p>
-              <a href="photographer1.html" class="btn">View More</a>
+              <h3>{@html performance.brand}</h3>
             </div>
           </div>
+          {/each}
           <!-- More items here -->
         </div>
       </div>
