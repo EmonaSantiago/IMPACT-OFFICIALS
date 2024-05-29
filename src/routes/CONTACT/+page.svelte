@@ -4,14 +4,14 @@
     </header>
     <main>
         <div class="contact">
-            <h2>IMPACT</h2>
-            <p>Email: impactemail.com</p>
-            <p>Telefoon: 06123456</p>
+            <h3>CONTACTGEGEVENS</h3>
+            <p>+31 6 22428876</p>
+            <p>info.impactofficials@gmail.com</p>
         </div>
         <div class="contact">
-            <h2>IMPACT</h2>
-            <p>Email: impactemail.com</p>
-            <p>Telefoon: 06123456</p>
+            <h3 id="h3">VOLG ONS OP SOCIAL MEDIA</h3>
+            <p>INSTAGRAM:<a href="https://www.instagram.com/impact.officials/">@impact.officials</a> </p>
+            <p>TIKTOK:<a href="https://www.tiktok.com/@impact.officials">@impact.officials</a> </p>
         </div>
         <!-- Voeg meer contacten toe zoals hierboven -->
     </main>
