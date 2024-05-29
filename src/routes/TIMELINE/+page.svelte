@@ -6,7 +6,7 @@
         <div class="section">
             <div class="dot"></div>
             <p class="date">JUNE 3, 2022</p>
-            <div class="section-title">1ST EDITION</div>
+            <div class="section-title">IMPACT 1ST EDITION</div>
             <div class="btn-container">
                 <button class="btn">FULL VIDEO</button>
                 <button class="btn">PHOTOS</button>
@@ -16,37 +16,52 @@
 
         <div class="section">
             <div class="dot"></div>
-            <div class="section-title">SHOOT DAY</div>
+            <p class="date">APRIL 4TH, 2023</p>
+            <div class="section-title">SHOOTDAY 2</div>
             <div class="btn-container">
-                <button class="btn">Knop 1</button>
-                <button class="btn">Knop 2</button>
+                <button class="btn">FULL VIDEO</button>
+                <button class="btn">PHOTOS</button>
             </div>
             <img class="image" src="src/static/aftermovie.png" alt="AFTER MOVIE">
         </div>
         <div class="section">
             <div class="dot"></div>
-            <div class="section-title">Sectie 3</div>
+            <p class="date">MAY 27TH, 2023</p>
+            <div class="section-title">IMPACT 2ND EDITION</div>
             <div class="btn-container">
-                <button class="btn">Knop 1</button>
-                <button class="btn">Knop 2</button>
+                <button class="btn">FULL VIDEO</button>
+                <button class="btn">PHOTOS</button>
             </div>
             <img class="image" src="src/static/aftermovie.png" alt="AFTER MOVIE">
         </div>
         <div class="section">
             <div class="dot"></div>
-            <div class="section-title">Sectie 4</div>
+            <p class="date">APRIL 13TH, 2024</p>
+            <div class="section-title">SHOOTDAY 3</div>
             <div class="btn-container">
-                <button class="btn">Knop 1</button>
-                <button class="btn">Knop 2</button>
+                <button class="btn">FULL VIDEO</button>
+                <button class="btn">PHOTOS</button>
             </div>
             <img class="image" src="src/static/aftermovie.png" alt="AFTER MOVIE">
         </div>
         <div class="section">
             <div class="dot"></div>
-            <div class="section-title">Sectie 5</div>
+            <p class="date">APRIL 20TH, 2024</p>
+            <div class="section-title">AUDITION / CASTING DAY</div>
             <div class="btn-container">
-                <button class="btn">Knop 1</button>
-                <button class="btn">Knop 2</button>
+                <button class="btn">FULL VIDEO</button>
+                <button class="btn">PHOTOS</button>
+            </div>
+            <img class="image" src="src/static/aftermovie.png" alt="AFTER MOVIE">
+        </div>
+
+        <div class="section">
+            <div class="dot"></div>
+            <p class="date">JUNE 1ST, 2024</p>
+            <div class="section-title">IMPACT 3RD EDITION</div>
+            <div class="btn-container">
+                <button class="btn">FULL VIDEO</button>
+                <button class="btn">PHOTOS</button>
             </div>
             <img class="image" src="src/static/aftermovie.png" alt="AFTER MOVIE">
         </div>
@@ -99,10 +114,20 @@ font-size: smaller;
     }
 
     .section-title {
-        font-size: 20px;
+        font-size: 30px;
         font-weight: bold;
         color: white;
     }
+
+    @media (min-width: 600px)  { 
+        .section-title {
+        font-size: 60px;
+        font-weight: bold;
+        color: white;
+    }
+    }
+
+
 
     .btn-container {
         margin-top: 10px;
@@ -116,9 +141,10 @@ font-size: smaller;
         cursor: pointer;
         background-color: black;
          /* Kleur van de knoppen */
-        color: var(--IMPACT-yellow);
+        color: #F8F053;
         border: solid 1px;
         border-radius: 5px;
+        border-color: #F8F053;
     }
 
     .image {
