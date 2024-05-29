@@ -5,12 +5,8 @@
 
   const beautys = data?.allBeautyLifestyles || [];
   const djs = data?.allDjs || [];
+  const visuals = data?.allVisuals || [];
 </script>
-
-
-
-
-
 
 
 <body>
@@ -47,14 +43,21 @@
         </div>
       </div>
 
-      <div class="item">
-        <img src="photographer1.jpg" alt="Photographer 1">
-        <div class="info">
-            <h2>VISUALS</h2>
-          <p>An introduction to Photographer 1</p>
-          <a href="photographer1.html" class="btn">View More</a>
+      <div class="section">
+        <h2>VISUALS</h2>
+          <div class="carousel">
+            {#each visuals as visual}
+            <div class="item">
+              <img src="{visual.image.url}" alt="persoon">
+              <img src="photographer1.jpg" alt="Photographer 1">
+              <div class="info">
+                <h3>{@html visual.brand}</h3>
+              </div>
+            </div>
+            {/each}
+            <!-- More items here -->
+          </div>
         </div>
-      </div>
 
       <div class="section">
         <h2>ARTIESTEN & DANSERS</h2>
@@ -81,7 +84,7 @@
               <h3>{@html dj.brand}</h3>
             </div>
           </div>
-          {/each}
+          {/each} 
           <!-- More items here -->
         </div>
       </div>

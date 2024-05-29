@@ -17,6 +17,13 @@ export async function load({}) {
           }
         }
 
+        allVisuals {
+          brand
+          image {
+            url
+        }
+      }
+
         allDjs {
           brand
           image {
