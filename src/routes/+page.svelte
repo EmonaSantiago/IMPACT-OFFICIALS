@@ -11,7 +11,7 @@
   </section>
   <section id="upcoming">
       <section class="content">
-        {@html homedata.homepageNews}
+       <p>{@html homedata.homepageNews}</p> 
       <a href="/" class="button">GET TICKETS</a>
       </section>
       <section class="content">
@@ -97,7 +97,7 @@
   p {
       color: white;
       padding-bottom: 1em;
-      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      font-family: monospace;
   }
   body {
       height: 100%;
