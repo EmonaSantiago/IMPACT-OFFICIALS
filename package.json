@@ -20,6 +20,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@datocms/svelte": "^2.0.2"
+		"@datocms/svelte": "^2.0.2",
+		"vercel": "^34.2.6"
 	}
 }
