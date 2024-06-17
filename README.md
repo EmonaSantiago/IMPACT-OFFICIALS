@@ -4,6 +4,9 @@
 Endterm Assessment Leerjaar 2 project
 
 <img width="1680" alt="Schermafbeelding 2024-06-07 om 15 17 08" src="https://github.com/EmonaSantiago/IMPACT-OFFICIALS/assets/90447045/0cf77674-4e69-474d-ae1f-ddbb90d1a410">
+IMPACT heeft momenteel een aanwezigheid op sociale mediaplatforms zoals Instagram en TikTok. Echter, om hun bereik verder te vergroten en meer mogelijkheden te bieden voor interactie en betrokkenheid, streven ze ernaar om hun platformen uit te breiden met een eigen website.
+
+Het hoofddoel van deze website is om een centrale hub te bieden waar bezoekers gemakkelijk contact kunnen opnemen voor uitbreidingsmogelijkheden, samenwerkingen en andere zakelijke kansen.
 
 ## Achtergrond informatie
 
