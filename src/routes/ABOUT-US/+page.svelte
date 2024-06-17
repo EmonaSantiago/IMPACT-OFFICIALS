@@ -53,7 +53,7 @@
           <a href="https://www.instagram.com/chezka_maligaya/">@chezka_maligaya</a>
         </div>
         <div class="member">
-          <img src="/src/static/IMPACT JOAN.jpg" alt="Team Member 1">
+          <img src="../src/static/IMPACT JOAN.jpg" alt="Team Member 1">
           <h3>JOAN MANZO</h3>
           <p>Event Project Manager</p>
           <a href="https://www.instagram.com/joan_cathleen/">@joan_cathleen</a>
