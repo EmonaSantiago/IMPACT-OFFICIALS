@@ -38,7 +38,7 @@
                 </a>
                 <button class="btn">PHOTOS</button>
             </div>
-            <img class="image" src="/src/image/aftermovie.png" alt="AFTER MOVIE">
+            <img class="image" src="../assets/secondedition.png" alt="AFTER MOVIE">
         </div>
         <div class="section">
             <div class="dot"></div>
