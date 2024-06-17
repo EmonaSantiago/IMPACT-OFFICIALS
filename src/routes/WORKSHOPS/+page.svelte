@@ -2,13 +2,13 @@
 <body>
 <div class="container">
     <div class="item">
-      <img src="/src/static/workshop-marsam.png" alt="Image 1">
+      <img src="../assets/workshop-marsam.png" alt="Image 1">
       <h2>PAINT & VIBE</h2>
       <p>Marsam goes beyond painting</p>
       <a href="https://www.instagram.com/p/C7Cv4qrslnP/?img_index=1">Read More</a>
     </div>
     <div class="item">
-        <img src="/src/static/workshop-marica.png" alt="Image 1">
+        <img src="../assets/workshop-marica.png" alt="Image 1">
         <h2>CONNECT WITH ME</h2>
         <p>CONNECT with MARICA </p>
         <a href="https://www.instagram.com/p/C69AuQSsviv/?img_index=1">Read More</a>

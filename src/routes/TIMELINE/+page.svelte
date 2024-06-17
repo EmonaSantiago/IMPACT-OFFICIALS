@@ -13,7 +13,7 @@
                 </a>
                 <button class="btn">PHOTOS</button>
             </div>
-            <img class="image" src="src/static/aftermovie1.png" alt="AFTER MOVIE">
+            <img class="image" src="../assets/aftermovie1.png" alt="AFTER MOVIE">
         </div>
 
         <div class="section">
@@ -26,7 +26,7 @@
                 </a>
                 <button class="btn">PHOTOS</button>
             </div>
-            <img class="image" src="src/static/shootday2.png" alt="AFTER MOVIE">
+            <img class="image" src="../assets/shootday2.png" alt="AFTER MOVIE">
         </div>
         <div class="section">
             <div class="dot"></div>
@@ -38,7 +38,7 @@
                 </a>
                 <button class="btn">PHOTOS</button>
             </div>
-            <img class="image" src="src/static/aftermovie.png" alt="AFTER MOVIE">
+            <img class="image" src="../assets/aftermovie.png" alt="AFTER MOVIE">
         </div>
         <div class="section">
             <div class="dot"></div>
@@ -48,7 +48,7 @@
                 <button class="btn">FULL VIDEO</button>
                 <button class="btn">PHOTOS</button>
             </div>
-            <img class="image" src="src/static/shootday3.png" alt="AFTER MOVIE">
+            <img class="image" src="../assets/shootday3.png" alt="AFTER MOVIE">
         </div>
         <div class="section">
             <div class="dot"></div>
@@ -58,7 +58,7 @@
                 <button class="btn">FULL VIDEO</button>
                 <button class="btn">PHOTOS</button>
             </div>
-            <img class="image" src="src/static/audition.png" alt="AFTER MOVIE">
+            <img class="image" src="../assets/audition.png" alt="AFTER MOVIE">
         </div>
 
         <div class="section">
@@ -69,7 +69,7 @@
                 <button class="btn">FULL VIDEO</button>
                 <button class="btn">PHOTOS</button>
             </div>
-            <img class="image" src="src/static/aftermovie.png" alt="AFTER MOVIE">
+            <img class="image" src="../assets/aftermovie.png" alt="AFTER MOVIE">
         </div>
         <!-- Voeg meer secties toe zoals nodig -->
     </div>

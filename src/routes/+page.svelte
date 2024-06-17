@@ -16,7 +16,7 @@
       </section>
       <section class="content">
           <!-- <img id="home-image" src="{homedata.image.url}" alt="persoon"> -->
-          <img class="image" src="src/static/poster.png" alt="AFTER MOVIE">
+          <img class="image" src="../assets/poster.png" alt="AFTER MOVIE">
       </section>
 
   </section>
@@ -50,7 +50,7 @@
   </section>
       <section class="content">
         <!-- <img id="form-image" src="{homedata.image.url}" alt="persoon"> -->
-        <img class="image" src="src/static/team.jpg" alt="AFTER MOVIE">
+        <img class="image" src="../assets/team.JPG" alt="AFTER MOVIE">
   </section>
   </section>
 </body>
@@ -104,7 +104,7 @@
   }
 
   #hero-section {
-      background-image: url("/src/static/aftermovie.png");
+      background-image: url("../assets/aftermovie.png");
       height: 100vh; 
       background-position: center;
       background-repeat: no-repeat;
