@@ -69,7 +69,7 @@
                 <button class="btn">FULL VIDEO</button>
                 <button class="btn">PHOTOS</button>
             </div>
-            <img class="image" src="../assets/aftermovie.png" alt="AFTER MOVIE">
+            <img class="image" src="../assets/secondedition.png" alt="AFTER MOVIE">
         </div>
         <!-- Voeg meer secties toe zoals nodig -->
     </div>
