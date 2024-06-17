@@ -104,7 +104,7 @@
   }
 
   #hero-section {
-      background-image: url("../assets/aftermovie.png");
+      background-image: url("/src/image/aftermovie.png");
       height: 100vh; 
       background-position: center;
       background-repeat: no-repeat;
