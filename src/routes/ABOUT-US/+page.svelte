@@ -47,7 +47,7 @@
     <h2>TEAM IMPACT</h2>
     <div class="team-members">
         <div class="member">
-          <img src="/src/static/IMPACT CHEZKA.jpg" alt="Team Member 1">
+          <img src="./src/static/IMPACT CHEZKA.jpg" alt="Team Member 1">
           <h3>CHEZKA MALIGAYA</h3>
           <p>Founder | Creative Director</p>
           <a href="https://www.instagram.com/chezka_maligaya/">@chezka_maligaya</a>
@@ -77,7 +77,7 @@
           <a href="https://www.instagram.com/m.j.joy/">@m.j.joy</a>
         </div>
         <div class="member">
-          <img src="/src/static/IMPACTAARON.png" alt="Team Member 1">
+          <img src="/src/static/IMPACT AARON.png" alt="Team Member 1">
           <h3>AARON WILLEMSEN</h3>
           <p>Head of Finance + Photographer</p>
           <a href="https://www.instagram.com/aaronlevi.w/">@aaronlevi.w</a>
