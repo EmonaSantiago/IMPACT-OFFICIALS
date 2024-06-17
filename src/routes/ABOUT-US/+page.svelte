@@ -47,7 +47,7 @@
     <h2>TEAM IMPACT</h2>
     <div class="team-members">
         <div class="member">
-          <img src="/src/static/IMPACT CHEZKA.jpg" alt="Team Member 1">
+          <img src="/src/static/aboutus-images/IMPACT CHEZKA.jpg" alt="Team Member 1">
           <h3>CHEZKA MALIGAYA</h3>
           <p>Founder | Creative Director</p>
           <a href="https://www.instagram.com/chezka_maligaya/">@chezka_maligaya</a>
