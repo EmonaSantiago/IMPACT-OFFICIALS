@@ -1,38 +1,17 @@
-# create-svelte
+# IMPACT OFFICIALS PROJECT
+**Emona Santiago**
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+Endterm Assessment Leerjaar 2 project
 
-## Creating a project
+<img width="1680" alt="Schermafbeelding 2024-06-07 om 15 17 08" src="https://github.com/EmonaSantiago/IMPACT-OFFICIALS/assets/90447045/0cf77674-4e69-474d-ae1f-ddbb90d1a410">
+IMPACT heeft momenteel een aanwezigheid op sociale mediaplatforms zoals Instagram en TikTok. Echter, om hun bereik verder te vergroten en meer mogelijkheden te bieden voor interactie en betrokkenheid, streven ze ernaar om hun platformen uit te breiden met een eigen website.
 
-If you're seeing this, you've probably already done this step. Congrats!
+Het hoofddoel van deze website is om een centrale hub te bieden waar bezoekers gemakkelijk contact kunnen opnemen voor uitbreidingsmogelijkheden, samenwerkingen en andere zakelijke kansen.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Achtergrond informatie
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Impact is een gemeenschap die een platform biedt voor aspirerende creatievelingen op het gebied van mode, muziek, visuele kunst, dans, schoonheid, kunst en op maat gemaakte ontwerpen. Het evenement bestaat uit twee hoofdonderdelen: een expositie en een modeshow.
 
-## Developing
+Bekijk de [IMPACT WIKI](https://github.com/EmonaSantiago/IMPACT-OFFICIALS/wiki) voor het hele process...
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+<img width="729" alt="Schermafbeelding 2024-06-07 om 15 58 21" src="https://github.com/EmonaSantiago/IMPACT-OFFICIALS/assets/90447045/668c1072-5a7a-443d-97b2-5d84ac5e4c80">
